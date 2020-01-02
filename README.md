@@ -20,12 +20,13 @@ If already running by other applications, close PORT:3000 and PORT:3002. Our app
 6. Open http://localhost:3000/ on your browser. The application should now start and you should be able to see you host machine's CPU usage.
 7. Alternatively, if you like to start client and server separately, run `npm start` for client and `npm server` for node.
 
-### If Disconnected
+### Recovery Attempt
 
 If temporarily disconnected, the client side will continuosly reqeust for reconnection. If the reconnection attempt is successful, the data starts to be displayed on graph automatically.
 
 ![temporary_diconect](https://user-images.githubusercontent.com/46348451/71667974-e1bb7500-2d6f-11ea-9432-145bc95fb97f.PNG)
 
+### If Disconnected
 
 If the node at backend does not respond for at 15 attempts requests, or if the server does not recover, the application shuts itself and promts to restart the application.
 
