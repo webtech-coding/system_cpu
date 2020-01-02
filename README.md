@@ -1,6 +1,6 @@
 ![cpu_usage_graph](https://user-images.githubusercontent.com/46348451/71667645-a79da380-2d6e-11ea-9f14-fb6adab16b97.PNG)
 
-## System CPU Monitor
+# System CPU Status
 
 This is an application to visualise host system's CPU usage. The CPU data is computed every 500 millisecond and represented in a graph.
 
