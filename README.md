@@ -29,5 +29,5 @@ If temporarily disconnected, the client side will continuosly reqeust for reconn
 
 If the node at backend does not respond for at 15 attempts requests, or if the server does not recover, the application shuts itself and promts to restart the application.
 
-![cpu_usage_terminate](https://user-images.githubusercontent.com/46348451/71667842-6c4fa480-2d6f-11ea-9428-dd3bac9fae18.PNG)
+![permanent](https://user-images.githubusercontent.com/46348451/71668119-568eaf00-2d70-11ea-9adc-3b4ae2508f3d.PNG)
 
