@@ -1,7 +1,25 @@
-## SYSTEM CPU MONITOR
+## System CPU Monitor
 
 This is an application to visualise host system's CPU usage. The CPU data is computed every 500 millisecond and represented in a graph.
 
-### Techinologies
+### Build with
 
 The application is build upon ERN stack - Express, React and Node. Node.js, at backend, computes the host machine's CPU untilisation. The socket.io and socket-client.io initiate the real time communication between Node and React. The cpu usage data from node is received at front-end and the last 100 data is represented in CanvasJS graph.
+
+### Installation
+
+If already running by other applications, close PORT:3000 and PORT:3002. Our application is run on these two ports.
+
+1. Clone or download the project.
+2. Navigate to the poject folder from terminal.
+3. Run `npm install` to install project dependencies.
+4. Navigate inside the client folder. This folder hosts React app. Run `npm install` to install client dependencies.
+5. From the root folder run `npm run dev`. This initates the node and react. The node runs on PORT:3002 and client runs on PORT:3000
+6. Open http://localhost:3000/ on your browser. The application should now start and you should be able to see you host machine's CPU usage.
+7. Alternatively, if you like to start client and server separately, run `npm start` for client and `npm server` for node.
+
+### If Disconnected
+
+If temporarily disconnected, the client side will continuosly reqeust for reconnection. If the reconnection attempt is successful, the data starts to be displayed on graph automatically.
+
+If the node at backend does not respond for at 15 attempts requests, or if the server does not recover, the application shuts itself and promts to restart the application.
