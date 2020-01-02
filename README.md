@@ -10,7 +10,7 @@ The application is build upon ERN stack - Express, React and Node. Node.js, at b
 
 ### Installation
 
-If already running by other applications, close PORT:3000 and PORT:3002. Our application is run on these two ports.
+If already running by other applications, close PORT:3000 and PORT:3002. Our application run on these two ports.
 
 1. Clone or download the project.
 2. Navigate to the poject folder from terminal.
