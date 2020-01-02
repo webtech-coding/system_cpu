@@ -2,7 +2,7 @@
 
 # System CPU Status
 
-This is an application to visualise host system's CPU usage. The CPU data is computed every 500 millisecond and represented in a graph.
+This is an application to visualise host system's CPU usage. The CPU data is computed every 500 milliseconds and represented in a graph.
 
 ### Build with
 
@@ -24,6 +24,10 @@ If already running by other applications, close PORT:3000 and PORT:3002. Our app
 
 If temporarily disconnected, the client side will continuosly reqeust for reconnection. If the reconnection attempt is successful, the data starts to be displayed on graph automatically.
 
+![temporary_diconect](https://user-images.githubusercontent.com/46348451/71667974-e1bb7500-2d6f-11ea-9432-145bc95fb97f.PNG)
+
+
 If the node at backend does not respond for at 15 attempts requests, or if the server does not recover, the application shuts itself and promts to restart the application.
+
 ![cpu_usage_terminate](https://user-images.githubusercontent.com/46348451/71667842-6c4fa480-2d6f-11ea-9428-dd3bac9fae18.PNG)
 
