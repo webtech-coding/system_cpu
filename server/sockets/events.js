@@ -3,7 +3,7 @@ const os = require("os");
 
 const onClientDisconnect = socket => {
   socket.on("disconnect", () => {
-    console.log("--A clinet has disconnected--");
+    console.log("--A client has disconnected--");
   });
 };
 
