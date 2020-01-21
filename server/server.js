@@ -25,7 +25,7 @@ socketIO.on("connection", socket => {
   onRequestCpuUsage(socket);
 
   socket.on("disconnect", () => {
-    console.log("this is so true");
+    console.log("disconnected");
   });
 });
 
